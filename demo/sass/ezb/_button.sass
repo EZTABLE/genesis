@@ -1,0 +1,41 @@
+.btn
+    display: inline-block
+    padding: 5px 15px
+
+    color: $ez-gray
+    border: 1px solid $ez-gray
+    background: white
+
+    @include border-radius(3px)
+
+    &:hover
+        color: $ez-gray
+        border: 1px solid $ez-gray
+
+    & + .btn
+        margin-left: 5px
+
+.btn-2x
+    padding: 10px 90px
+
+.half-btn
+    width: 49%
+    text-align: center
+
+    & + .half-btn
+        margin-left: 2%
+
+.full-btn
+    width: 100%
+    text-align: center
+
+.red-btn
+    color: white
+    background: $ez-red
+    border-color: $ez-red
+
+    &:hover
+        color: $ez-white
+        background: $ez-black
+        border-color: $ez-black
+

@@ -1,0 +1,25 @@
+//  Fonts
+//
+// Font size
+//
+// Markup:
+// <p class="text {$modifiers}">Hello EZTABLE</p>
+//
+// .text-small   - small font
+// .text-normal  - normal font
+// .text-large   - large font
+//
+// Styleguide 1.2
+@import ../ezb/typography
+
+$font-size-base:          12px !default
+$font-size-large:         ceil(($font-size-base * 1.25)) !default
+$font-size-small:         ceil(($font-size-base * 0.85)) !default
+.text
+    color: $ez-red
+.text-small
+    font-size: $font-size-small
+.text-normal
+    font-size: $font-size-base
+.text-large
+    font-size: $font-size-large
